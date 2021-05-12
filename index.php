@@ -120,7 +120,7 @@ background-color: black;
 </tr>
 
 <?php
-$conn = mysqli_connect("localhost", "root", "WPXq5Ap10", "es");
+$conn = mysqli_connect("localhost", "root", "", "es");
   // Check connection
   if ($conn->connect_error) {
    die("Connection failed: " . $conn->connect_error);
